@@ -2,10 +2,10 @@
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-# numero1 = int(input("Digite o primeiro número: "))
-# numero2 = int(input("Digite o segundo número: "))
-# result = numero1+numero2
-# print(f"O resultado da soma é: {result}")
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+result = numero1+numero2
+print(f"O resultado da soma é: {result}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
