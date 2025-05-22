@@ -51,6 +51,12 @@ valor = base**expoente
 print(f"O resultado de {base}**{expoente} = {valor}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+PRIMEIRO_PARAMETRO = 1.8
+SEGUNDO_PARAMETRO = 32
+temperatura_celsius = float(input("Digite a temperatura em graus Celsius: "))
+temperatura_fahrenheit = (temperatura_celsius*PRIMEIRO_PARAMETRO)+SEGUNDO_PARAMETRO
+print(f"A temperatura {temperatura_celsius}ºC, convertido para Fahrenheit {temperatura_fahrenheit:.2f}ºF")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 # #### Strings (`str`)
