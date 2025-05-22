@@ -14,6 +14,11 @@ valor2 = n % CONST_NUM
 print(f"O resto da divisão pelo número {CONST_NUM} é {valor2}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+valor = numero1*numero2
+print(f"O resultado da multiplicação de {numero1} X {numero2} = {valor} ")
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
