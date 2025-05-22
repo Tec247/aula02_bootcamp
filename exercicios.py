@@ -107,6 +107,12 @@ resultado = valor1 and valor2
 print(f"O resultado entre a operação de OR é: {resultado}")
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+valor1 = False
+valor2 = True
+resultado = valor1 or valor2
+print(f"O resultado entre a operação de OR é: {resultado}")
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
