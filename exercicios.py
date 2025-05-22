@@ -136,6 +136,14 @@ print(f"O Resuldado da diferença é: {result_diferenca}")
 
 # 21: Conversor de Temperatura
 
+PARAM_TEMP1 = 1.8
+PARAM_TEMP2 = 32
+try:
+    temperatura_celsius = int(input("Digite a temperatura em Celsius ºC: "))
+    temperatura_fahrenheit = (temperatura_celsius*PARAM_TEMP1) + PARAM_TEMP2
+    print(f"A temperatura de {temperatura_celsius}ºC é igual a: {temperatura_fahrenheit:.2f}ºF")
+except ValueError as e:
+   print("Informe um valor válido de temperatura..")
 
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
