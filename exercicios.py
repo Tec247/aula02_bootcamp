@@ -84,6 +84,13 @@ frase_tratada = frase.strip()
 print(f"A frase tratada é: {frase_tratada}")
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+data = input("Insira uma data no seguinte formato: dd/mm/aaaa: ")
+data_tratada = data.split("/")
+print(f"O dia digitado foi: {data_tratada[0]}")
+print(f"O mês digitado foi: {data_tratada[1]}")
+print(f"O ano digitado foi: {data_tratada[2]}")
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # #### Booleanos (`bool`)
