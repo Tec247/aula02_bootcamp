@@ -1,3 +1,4 @@
+import math
 # #### Inteiros (`int`)
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 numero1 = int(input("Digite o primeiro número: "))
@@ -58,6 +59,9 @@ temperatura_fahrenheit = (temperatura_celsius*PRIMEIRO_PARAMETRO)+SEGUNDO_PARAME
 print(f"A temperatura {temperatura_celsius}ºC, convertido para Fahrenheit {temperatura_fahrenheit:.2f}ºF")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+raio = float(input("Digite o raio do círculo: "))
+area_circulo = math.pi * raio**2
+print(f"A área do círculo referente ao raio de {raio} é de {area_circulo:.2f}") 
 
 # #### Strings (`str`)
 
