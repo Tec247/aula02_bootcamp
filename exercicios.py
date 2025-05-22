@@ -127,6 +127,11 @@ print(f"Resultado da igualdade é: {result_igualdade}")
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
+num1 = 12
+num2 = 23
+result_diferenca = (num1 != num2)
+print(f"O Resuldado da diferença é: {result_diferenca}")
+
 # #### try-except e if
 
 # 21: Conversor de Temperatura
