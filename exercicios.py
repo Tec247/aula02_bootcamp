@@ -114,6 +114,9 @@ resultado = valor1 or valor2
 print(f"O resultado entre a operação de OR é: {resultado}")
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+valor1 = True
+valor_not = not valor1
+print(f"O valor negado é: {valor_not}")
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
