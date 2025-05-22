@@ -39,6 +39,12 @@ valor = num1+num2
 print(f"A adição de pontos flutuantes entre os números {num1} + {num2} = {valor}")
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+media = (num1+num2)/2
+print(f"A média calculada dos dois números é: ({num1} + {num2}) / 2 = {media}")
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
