@@ -26,6 +26,9 @@ valor = num1//num2
 print(f"o resultado da divisão inteira de {num1} / {num2} = {valor}")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+num = int(input("Digite um número inteiro: "))
+valor = num **2
+print(f"O quadrado do número digitado é: {valor}")
 
 # #### Números de Ponto Flutuante (`float`)
 
