@@ -20,6 +20,11 @@ valor = numero1*numero2
 print(f"O resultado da multiplicação de {numero1} X {numero2} = {valor} ")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+valor = num1//num2
+print(f"o resultado da divisão inteira de {num1} / {num2} = {valor}")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # #### Números de Ponto Flutuante (`float`)
