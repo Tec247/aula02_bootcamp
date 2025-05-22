@@ -117,7 +117,14 @@ print(f"O resultado entre a operação de OR é: {resultado}")
 valor1 = True
 valor_not = not valor1
 print(f"O valor negado é: {valor_not}")
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+num1 = 22
+num2 = 21
+result_igualdade = (num1 == num2)
+print(f"Resultado da igualdade é: {result_igualdade}")
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
