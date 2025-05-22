@@ -1,7 +1,5 @@
 # #### Inteiros (`int`)
-
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-
 numero1 = int(input("Digite o primeiro número: "))
 numero2 = int(input("Digite o segundo número: "))
 result = numero1+numero2
@@ -46,6 +44,12 @@ media = (num1+num2)/2
 print(f"A média calculada dos dois números é: ({num1} + {num2}) / 2 = {media}")
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+base = float(input("Digite o valor do número da base: "))
+expoente = float(input("Digite o valor do número do expoente: "))
+valor = base**expoente
+print(f"O resultado de {base}**{expoente} = {valor}")
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
