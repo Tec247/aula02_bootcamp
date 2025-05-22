@@ -93,6 +93,10 @@ print(f"O ano digitado foi: {data_tratada[2]}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
+texto1 = input("Digite o primeiro texto: ")
+texto2 = input("Digite o segundo texto: ")
+print(f" A concatenação gerou o seguinte: {texto1} {texto2}")
+
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
