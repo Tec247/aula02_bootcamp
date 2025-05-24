@@ -167,4 +167,18 @@ except ValueError as e:
     print("Digite um número válido...")
 
 # 24: Classificador de Números
+try:
+    num = int(input("Insira o número: "))
+    if num < 0:
+        print("Negativo")
+    elif num >0:
+       print("Positivo")
+    else: 
+        print("Zero")
+    if num % 2 == 0:
+        print("Par")
+    else: 
+        print("Impar")
+except ValueError as e:
+    print("Insira um número por favor...")
 # 25: Conversão de Tipo com Validação
