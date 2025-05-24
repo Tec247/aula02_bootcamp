@@ -146,6 +146,25 @@ except ValueError as e:
    print("Informe um valor válido de temperatura..")
 
 # 22: Verificador de Palíndromo
+
 # 23: Calculadora Simples
+try:
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    operador = input("+, -, *, /")
+    if operador == '+':
+        resultado = num1 + num2
+    elif operador == '-':
+        resultado = num1 - num2
+    elif operador == '*':
+        resultado = num1 *  num2
+    elif operador == '/':
+        resultado = num1 / num2
+    else:
+        print("Operador invalido ou divisão por zero.") 
+    print(f"Resultado: {resultado}")
+except ValueError as e:
+    print("Digite um número válido...")
+
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
