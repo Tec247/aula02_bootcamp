@@ -181,4 +181,15 @@ try:
         print("Impar")
 except ValueError as e:
     print("Insira um número por favor...")
+    
 # 25: Conversão de Tipo com Validação
+
+var = input("Insira os número separado por vírgula: ")
+num_str = var.split(",")
+num_int = []
+try:
+    for i in num_str:
+        num_int.append(int(i.strip()))
+    print(num_int)
+except ValueError as e:
+    print("Digite todos os números com vírgula.")
